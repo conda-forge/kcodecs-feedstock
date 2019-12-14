@@ -1,5 +1,5 @@
 {% set name = "kcodecs" %}
-{% set version = "5.64.0" %}
+{% set version = "5.65.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kcodecs-{{ version }}.tar.xz
-  sha256: 24cbffb123179cf4386500ae7bc7c99f65c4422cd7b91f314152f11cd596402a
+  sha256: eca1642a559aad9aed57ea3ad5c7a62a2b20ad13969b6fcba671f5bc7c9782fd
 
 build:
   number: 0
