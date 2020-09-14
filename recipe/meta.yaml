@@ -33,9 +33,16 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/kcodecs/html/index.html
-  license: GPL-v2
+  license: BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-or-later AND MIT AND MPL-1.1
   license_family: GPL
-  license_file: COPYING
+  license_file:
+    - LICENSES/BSD-3-Clause.txt
+    - LICENSES/GPL-2.0-or-later.txt
+    - LICENSES/LGPL-2.0-only.txt
+    - LICENSES/LGPL-2.0-or-later.txt
+    - LICENSES/LGPL-2.1-or-later.txt
+    - LICENSES/MIT.txt
+    - LICENSES/MPL-1.1.txt
   summary: String encoding library
   description: |
     KCodecs provide a collection of methods to manipulate strings using various encodings.
