@@ -3,11 +3,13 @@ About kcodecs
 
 Home: https://api.kde.org/frameworks/kcodecs/html/index.html
 
-Package license: GPL-v2
+Package license: BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-or-later AND MIT AND MPL-1.1
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kcodecs-feedstock/blob/master/LICENSE.txt)
 
 Summary: String encoding library
+
+Development: https://cgit.kde.org/kcodecs.git/tree
 
 KCodecs provide a collection of methods to manipulate strings using various encodings.
 It can automatically determine the charset of a string, translate XML entities,
@@ -33,10 +35,10 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64</td>
+              <td>linux_64_c_compiler_version7cxx_compiler_version7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8471&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kcodecs-feedstock?branchName=master&jobName=linux&configuration=linux_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kcodecs-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version7cxx_compiler_version7" alt="variant">
                 </a>
               </td>
             </tr>
