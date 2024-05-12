@@ -11,7 +11,7 @@ source:
   sha256: b4e1fe3247fdaf80f4414716f6fbcd42e8de04f64c8dd50bd13e9e9a78abf6e1
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
   run_exports:
     - {{ pin_subpackage('kcodecs', max_pin='x.x') }}
@@ -24,7 +24,7 @@ requirements:
     - make
     - extra-cmake-modules >={{ version }}
   host:
-    - qt
+    - qt-main
     - gperf
 
 test:
